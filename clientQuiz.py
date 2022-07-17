@@ -3,8 +3,15 @@ import select
 import socket
 
 if __name__ == '__main__':
+    
+    argnum = len(sys.argv)
+
+    if(argnum > 2 or argnum < 2):
+        print("\nInvalid arguments passed to the program!")
+        sys.exit()
+        
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect(('10.0.2.15', 8888))
+    sock.connect((sys.argv[1], 8888))
     sock.setblocking(False)
 
     def obtain_data(client_socket):
