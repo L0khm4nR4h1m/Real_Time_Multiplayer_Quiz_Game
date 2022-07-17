@@ -11,5 +11,5 @@ python serverQuiz.py
 ### Usage clientQuiz.py
 Example
 ```bash
-python clientQuiz.py 127.0.01
+python clientQuiz.py [<Server IP Address>]
 ```
