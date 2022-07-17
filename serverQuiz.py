@@ -3,7 +3,7 @@ import select
 import socket
 import time
 import random
-from Question import question_and_answer
+from question import question_and_answer
 from _thread import *
 
 class Communicate:
