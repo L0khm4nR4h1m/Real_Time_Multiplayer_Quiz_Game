@@ -1,4 +1,4 @@
-Q_and_A = [['The IETF standards documents are called ________:', ["RFC", "RCF", "ID", "DFC"], "RFC"],
+question_and_answer = [['The IETF standards documents are called ________:', ["RFC", "RCF", "ID", "DFC"], "RFC"],
 		  ['What country has the highest life expectancy?',["Hong Kong", "China", "USA", "Malaysia"], "Hong Kong"],
 		  ['Where would you be if you were standing on the Spanish Steps?',["London", "New York", "Rome", "Prague"], "Rome"],
 		  ['What is the most common surname in the United States?',["Glazer", "Smith", "Sam", "Gerrard"], "Smith"],
